@@ -1,6 +1,6 @@
 ## EV Pedal Control System (STM32F411)
 
-This project implements a closed-loop DC motor speed control system using an STM32F411 microcontroller.  
+This project implements a closed-loop DC motor speed control system using an STM32F411 microcontroller. The motor module used is a Bemonoc 12V DC Gearmotor rated for 300rpm with an encoder. 
 Motor speed is controlled using a bare-metal PID controller with real-time feedback from a quadrature encoder.
 
 A potentiometer is used to set the target RPM, while PWM drives the motor through an L298N motor driver.  
