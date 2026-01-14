@@ -1,0 +1,20 @@
+# Build folders
+Debug/
+Release/
+
+# Object and binary files
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# IDE files
+.settings/
+*.launch
+
+# OS files
+.DS_Store
+Thumbs.db
